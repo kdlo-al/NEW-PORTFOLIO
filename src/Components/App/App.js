@@ -4,6 +4,9 @@ import Header from '../FixedHeader/Header';
 import SectionOne from '../SectionOne/SectionOne';
 import ProgrammingLang from '../ProgrammingLang/ProgrammingLang';
 import PortfolioProjects from '../PortfolioProjects/PortfolioProjects';
+import Resume from '../Resume/Resume';
+import AboutMe from '../AboutMe/AboutMe';
+import ContactMe from '../ContactMe/ContactMe';
 
 function App() {
   return (
@@ -12,7 +15,10 @@ function App() {
       <Header />
       <SectionOne />
       <ProgrammingLang />
+      <Resume />
+      <AboutMe />
       <PortfolioProjects />
+      <ContactMe />
     </div>
   );
 }

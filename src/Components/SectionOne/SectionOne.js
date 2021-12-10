@@ -1,15 +1,25 @@
 import './SectionOne.css';
 import React, { Component } from 'react';
 import video from './production ID_4763824.mp4'
+import Typewriter from 'typewriter-effect';
 
 class SectionOne extends Component {
     render() {
         return (
-            <div className="w-full bg-red-400">
-                <video autoPlay loop muted width="100%">
+            <div className="relative flex items-center flex-row-reverse w-full">
+                <div className="absolute text-green-100 text-5xl text-left font-medium p-2 w-3/4 h-28">
+                    <Typewriter
+                        options={{
+                            strings: ["Hello, Welcome To My Portfolio", "My Name Is Marvin Rivera and I Am A Frontend Developer!"],
+                            autoStart: true,
+                            deleteSpeed: 40,
+                            loop: true,
+                        }}
+                    />
+                </div>
+                <video autoPlay loop muted width="auto">
                     <source src={video} type="video/mp4" />
                 </video>
-                <div className=""></div>
             </div>
         )
     }
