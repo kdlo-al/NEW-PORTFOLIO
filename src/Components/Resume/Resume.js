@@ -1,7 +1,7 @@
 import './Resume.css';
 import React, { Component } from 'react';
 import codingIllustration from './undraw_Freelancer_re_irh4.png';
-import resume from '../Resume/Resume copy.docx';
+import resume from '../Resume/Resume 2021-2022.docx';
 
 class Resume extends Component {
     render() {
