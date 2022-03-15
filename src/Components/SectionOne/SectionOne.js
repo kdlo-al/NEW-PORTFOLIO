@@ -6,11 +6,11 @@ import Typewriter from 'typewriter-effect';
 class SectionOne extends Component {
     render() {
         return (
-            <div className="relative flex items-center flex-row-reverse w-full">
-                <div className="absolute text-green-100 text-5xl text-left font-medium p-2 w-3/4 h-28">
+            <div className="relative flex items-center w-full"> {/*flex-row-reverse*/}
+                <div className="absolute text-green-100 text-5xl text-left font-medium p-2 w-3/4 h-28 pl-5">
                     <Typewriter
                         options={{
-                            strings: ["Hello, Welcome To My Portfolio", "My Name Is Marvin Rivera and I Am A Frontend Developer!"],
+                            strings: ["Hello, I am Marvin", "I am a Web Developer", "And this is my portfolio"],
                             autoStart: true,
                             deleteSpeed: 40,
                             loop: true,

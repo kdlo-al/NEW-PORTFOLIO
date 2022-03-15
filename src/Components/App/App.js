@@ -19,7 +19,7 @@ function App() {
       <AboutMe />
       <PortfolioProjects />
       <ContactMe />
-    </div>
+    </div >
   );
 }
 
