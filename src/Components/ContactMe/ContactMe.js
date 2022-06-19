@@ -11,13 +11,13 @@ class ContactMe extends Component {
 
                 <div className="flex justify-around items-center mt-12">
                     <div>
-                        <div className="border-2 border-green-200 p-5">
+                        <div className="border-4 border-green-200 p-5">
                             <h6>Marvin Rivera</h6>
                             <h6>marvinarivera@gmail.com</h6>
                             <h6>910-274-1659</h6>
                         </div>
 
-                        <div className="border-2 border-green-200 p-5 mt-4">
+                        <div className="border-4 border-green-200 p-5 mt-4">
                             <a className="text-blue-500 hover:text-blue-800" href="https://www.linkedin.com/in/marvin-rivera-120595196/" target="_blank" rel="noopener noreferrer"><h6>LinkedIn</h6></a>
                             <a className="text-blue-500 hover:text-blue-800" href="https://github.com/kdlo-al" target="_blank" rel="noopener noreferrer"><h6>Github</h6></a>
                             <a className="text-blue-500 hover:text-blue-800" href="https://twitter.com/kdlo_ai_" target="_blank" rel="noopener noreferrer"><h6>Twitter</h6></a>

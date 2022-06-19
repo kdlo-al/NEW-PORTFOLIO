@@ -28,6 +28,10 @@ class ProgrammingLang extends Component {
                         <h1 className="text-center mt-4 border-2 rounded-full bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">React Native</h1>
                     </div>
                     <div className="my-6 mx-4 p-6 border-4 border-yellow-600">
+                        <Icon className="w-32 h-32" icon="logos:nextjs" />
+                        <h1 className="text-center mt-4 border-2 rounded-full bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">NextJs</h1>
+                    </div>
+                    <div className="my-6 mx-4 p-6 border-4 border-yellow-600">
                         <Icon className="w-32 h-32" icon="mdi:language-typescript" /> {/* Black */}
                         <h1 className="text-center mt-4 border-2 rounded-full bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">TypeScript</h1>
                     </div>
@@ -36,12 +40,16 @@ class ProgrammingLang extends Component {
                         <h1 className="text-center mt-4 border-2 rounded-full bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">Command-line</h1>
                     </div>
                     <div className="my-6 mx-4 p-6 border-4 border-yellow-600">
+                        <Icon className="w-32 h-32" icon="bx:bxl-git" /> { /* Black */}
+                        <h1 className="text-center mt-4 border-2 rounded-full bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">Git</h1>
+                    </div>
+                    <div className="my-6 mx-4 p-6 border-4 border-yellow-600">
                         <Icon className="w-32 h-32" icon="carbon:logo-github" /> {/* Black */}
                         <h1 className="text-center mt-4 border-2 rounded-full bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">GitHub</h1>
                     </div>
                     <div className="my-6 mx-4 p-6 border-4 border-yellow-600">
-                        <Icon className="w-32 h-32" icon="bx:bxl-git" /> { /* Black */}
-                        <h1 className="text-center mt-4 border-2 rounded-full bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">Git</h1>
+                        <Icon className="w-32 h-32" icon="fa-brands:sass" />
+                        <h1 className="text-center mt-4 border-2 rounded-full bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">Sass</h1>
                     </div>
                     <div className="my-6 mx-4 p-6 border-4 border-yellow-600">
                         <Icon className="w-32 h-32" icon="bx:bxl-tailwind-css" />{/* Black */}
