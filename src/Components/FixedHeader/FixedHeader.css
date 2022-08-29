@@ -1,0 +1,111 @@
+.tw-nav-menu-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 501;
+
+}
+
+.close-out-x {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 64px;
+    padding-right: 30px;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 501;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.first-x {
+    padding-left: 60px;
+    margin-top: 30px;
+}
+
+.full-screen-close {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 500;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .tw-about-me {
+        padding-right: 6px;
+        padding-left: 6px;
+    }
+
+    .tw-pl {
+        padding-right: 6px;
+        padding-left: 6px;
+    }
+
+    .tw-projects {
+        padding-right: 6px;
+        padding-left: 6px;
+    }
+
+    .tw-resu {
+        padding-right: 6px;
+        padding-left: 6px;
+    }
+
+    .tw-contact-me {
+        padding-left: 6px;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    .tw-nav-menu {
+        display: none;
+    }
+
+    .tw-hamburger-menu {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 30px;
+        padding-top: 17px;
+    }
+
+    .tw-about-me {
+        font-size: 20px;
+        color: #fff;
+        padding-left: 20px;
+    }
+
+    .tw-pl {
+        font-size: 20px;
+        color: #fff;
+        padding-left: 20px;
+    }
+
+    .tw-projects {
+        font-size: 20px;
+        color: #fff;
+        padding-left: 20px;
+    }
+
+    .tw-resu {
+        font-size: 20px;
+        color: #fff;
+        padding-left: 20px;
+    }
+
+    .tw-contact-me {
+        font-size: 20px;
+        color: #fff;
+        padding-left: 20px;
+    }
+}
