@@ -6,7 +6,7 @@ class ProgrammingLang extends Component {
     render() {
         return (
             <div id="program-language" className="w-full">
-                <div className="flex flex-wrap justify-evenly items-center lg:justify-start lg:flex-nowrap lg:overflow-scroll">
+                <div className="flex justify-start items-center flex-nowrap overflow-scroll lg:justify-start lg:flex-nowrap lg:overflow-scroll">
                     <div className="my-6 mx-4 p-6 border-4 border-yellow-600"> {/*border-2 added*/}
                         <Icon className="w-32 h-32" icon="cib:html5-shield" /> {/* gray */}
                         <h1 className="text-center mt-4 border-2 rounded-full bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">HTML</h1>
