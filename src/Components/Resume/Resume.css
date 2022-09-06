@@ -1,0 +1,9 @@
+@media only screen and (max-width: 770px) {
+    .tw-resume {
+        padding: 0 1rem;
+    }
+
+    .tw-resume-image {
+        display: none;
+    }
+}

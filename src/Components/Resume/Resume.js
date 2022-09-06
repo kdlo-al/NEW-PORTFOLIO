@@ -6,8 +6,8 @@ import resume from '../Resume/Resume 2022.docx';
 class Resume extends Component {
     render() {
         return (
-            <div id="resu" className="mt-12 flex items-center justify-around">
-                <img className="w-5/12" src={codingIllustration} alt="Programming" />
+            <div id="resu" className="tw-resume mt-12 flex items-center justify-around">
+                <img className="tw-resume-image w-5/12" src={codingIllustration} alt="Programming" />
                 <div className="">
                     <h4 className="text-center text-4xl">Interested in learning more?</h4>
                     <p className="mt-1.5">learn more about me and determine if I make a perfect candidate for your team. Click below on the bouncing container to download my resume; thank you for your expressed interest.</p>
