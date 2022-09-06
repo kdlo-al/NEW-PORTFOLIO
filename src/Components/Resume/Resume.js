@@ -12,7 +12,7 @@ class Resume extends Component {
                     <h4 className="text-center text-4xl">Interested in learning more?</h4>
                     <p className="mt-1.5">learn more about me and determine if I make a perfect candidate for your team. Click below on the bouncing container to download my resume; thank you for your expressed interest.</p>
                     <form method="get" action={resume}>
-                        <button className="float-right animate-bounce border-2 mt-12 mr-32 p-5 rounded-full bg-gradient-to-r from-white to-blue-200" type="submit">Download Resume</button>
+                        <button className="tw-download-button float-right animate-bounce border-2 mt-12 mr-32 p-5 rounded-full bg-gradient-to-r from-white to-blue-200" type="submit">Download Resume</button>
                     </form>
                 </div>
             </div >

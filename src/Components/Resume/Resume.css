@@ -6,4 +6,8 @@
     .tw-resume-image {
         display: none;
     }
+
+    .tw-download-button {
+        margin-right: 4rem;
+    }
 }
