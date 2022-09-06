@@ -1,0 +1,119 @@
+@media only screen and (max-width: 770px) {
+    .tw-languages-container {
+        height: 200px;
+    }
+
+    .tw-html {}
+
+    .tw-html-icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .tw-html-h1 {
+        font-size: 8px;
+    }
+
+    .tw-css-icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .tw-css-h1 {
+        font-size: 8px;
+    }
+
+    .tw-javascript-icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .tw-javascript-h1 {
+        font-size: 8px;
+    }
+
+    .tw-react-icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .tw-react-h1 {
+        font-size: 8px;
+    }
+
+    .tw-react-native-icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .tw-react-native-h1 {
+        font-size: 8px;
+    }
+
+    .tw-next-icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .tw-next-h1 {
+        font-size: 8px;
+    }
+
+    .tw-typescript-icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .tw-typescript-h1 {
+        font-size: 8px;
+    }
+
+    .tw-command-line {
+        height: 152px;
+    }
+
+    .tw-command-icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .tw-command-h1 {
+        font-size: 8px;
+    }
+
+    .tw-git-icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .tw-git-h1 {
+        font-size: 8px;
+    }
+
+    .tw-github-icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .tw-github-h1 {
+        font-size: 8px;
+    }
+
+    .tw-sass-icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .tw-sass-h1 {
+        font-size: 8px;
+    }
+
+    .tw-tailwind-icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .tw-tailwind-h1 {
+        font-size: 8px;
+    }
+}
