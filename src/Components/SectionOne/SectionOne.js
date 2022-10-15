@@ -17,7 +17,7 @@ class SectionOne extends Component {
                         }}
                     />
                 </div>
-                <video autoPlay loop muted width="auto">
+                <video autoPlay loop muted playsinline width="auto">
                     <source src={video} type="video/mp4" />
                 </video>
             </div>
