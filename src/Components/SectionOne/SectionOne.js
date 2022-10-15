@@ -10,7 +10,7 @@ class SectionOne extends Component {
                 <div className="type-writer-text absolute text-green-100 text-5xl text-left font-medium p-2 w-3/4 h-28 pl-5">
                     <Typewriter
                         options={{
-                            strings: ["Hello, I am Marvin", "I am a Web Developer", "And this is my portfolio"],
+                            strings: ["Hello, I am Marvin", "I am a Web Developer", "This is my portfolio"],
                             autoStart: true,
                             deleteSpeed: 40,
                             loop: true,
