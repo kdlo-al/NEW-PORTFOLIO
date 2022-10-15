@@ -1,0 +1,9 @@
+@media only screen and (max-width: 764px) {
+    .about-me-paragraph {
+        margin-right: 1rem;
+    }
+
+    .about-me-image {
+        display: none;
+    }
+}
