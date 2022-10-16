@@ -4,7 +4,7 @@ import './ContactMe.css';
 class ContactMe extends Component {
     render() {
         return (
-            <div id="contact-me" className="my-20 w-full">
+            <div id="contact-me" className="mt-20 w-full">
                 <div>
                     <h2 className="text-4xl text-center">Contact Me</h2>
                     <p className="contact-me-paragraph mt-1.5 mx-28">Congratulation! You've made it to the end; Get in contact with me directly through my email down below. Fill out the form and I look forward to get back to you as soon as possible. Find alternative routes of reaching me by checking out my LinkedIn, Github, or my tech Twitter page. Thank you for taking the time to view my portfolio; I look forward to expanding our conversation.  </p>
