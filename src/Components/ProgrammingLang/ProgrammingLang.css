@@ -1,3 +1,18 @@
+.tw-languages-container {
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.tw-languages-container::-webkit-scrollbar {
+    width: 2px;
+    height: 5px;
+}
+
+.tw-languages-container::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 30px;
+}
+
 @media only screen and (max-width: 770px) {
     .tw-languages-container {
         height: 200px;
